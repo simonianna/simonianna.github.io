@@ -43,10 +43,29 @@ nav a:hover{
     color:#ddd;
 }
 
-/* SECTIONS */
+<div class="subnav">
+  <a href="#publications">Publications</a> |
+  <a href="#working">Working Papers</a> |
+  <a href="#books">Contributions to Books</a>
+</div>
 
+.subnav {
+    text-align: center;
+    margin: 20px;
+    font-size: 16px;
+}
 
-  /* SECTIONS */
+.subnav a {
+    color: #1f3c88;
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.subnav a:hover {
+    text-decoration: underline;
+}
+    
+ /* SECTIONS */
   section{
     max-width:900px;
     margin:30px auto;
@@ -101,8 +120,9 @@ footer{
   </div>
 </nav>
 
+    
 <!-- PUBLICATIONS -->
-<section>
+<section id="publications">
 <h2>Publications</h2>
 
 <ul>
@@ -220,7 +240,7 @@ Johannes, J., Simoni, A. and Schenk, R. (2020).
 
   
 <!-- CONTRIBUTIONS TO BOOKS -->
-<section>
+<section id="books">
 <h2>Contributions to Books & Ongoing Work</h2>
 
 <li>
@@ -242,7 +262,7 @@ Cambridge University Press.
 </section>
   
   <!-- WORKS IN PROGRESS -->
-<section>
+<section id="working">
 <h2>Works in Progress</h2>
 <ul>
 
