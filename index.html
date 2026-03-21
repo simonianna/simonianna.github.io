@@ -1,10 +1,195 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>My Website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anna Simoni</title>
+
+<style>
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    background:#f5f5f5;
+    color:#333;
+}
+
+/* HEADER */
+header{
+    background: linear-gradient(135deg, #1f3c88, #4a6fdc);
+    color:white;
+    padding:60px 20px;
+    text-align:center;
+}
+
+header h1{
+    margin:0;
+    font-size:36px;
+}
+
+header p{
+    margin-top:10px;
+    font-size:18px;
+    opacity:0.9;
+}
+
+/* NAVBAR */
+nav{
+    background:#222;
+    padding:12px;
+    text-align:center;
+    position: sticky;
+    top:0;
+}
+
+nav a{
+    color:white;
+    margin:0 15px;
+    text-decoration:none;
+    font-weight:bold;
+    font-size:15px;
+}
+
+nav a:hover{
+    color:#4a90e2;
+}
+
+/* SECTIONS */
+section{
+    max-width:900px;
+    margin:30px auto;
+    padding:40px;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 2px 8px rgba(0,0,0,0.05);
+}
+
+h2{
+    border-bottom:2px solid #eee;
+    padding-bottom:10px;
+    color:#1f3c88;
+}
+
+/* LISTS */
+ul{
+    line-height:1.8;
+}
+
+/* LINKS */
+a{
+    color:#1f3c88;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+/* FOOTER */
+footer{
+    text-align:center;
+    padding:20px;
+    background:#222;
+    color:white;
+    margin-top:40px;
+}
+
+/* MOBILE */
+@media (max-width:600px){
+    header h1{
+        font-size:26px;
+    }
+
+    section{
+        padding:20px;
+        margin:15px;
+    }
+
+    nav a{
+        display:inline-block;
+        margin:5px;
+    }
+}
+</style>
 </head>
+
 <body>
-  <h1>Welcome to my website</h1>
-  <p>This is my new site hosted on GitHub Pages.</p>
+
+<header>
+<h1>Anna Simoni</h1>
+<p>Senior Researcher – Econometrics & Statistics</p>
+</header>
+
+<nav>
+<a href="#about">About</a>
+<a href="#research">Research</a>
+<a href="#cv">CV</a>
+<a href="#contact">Contact</a>
+</nav>
+
+<section id="about">
+<h2>About</h2>
+<p>
+I am a senior researcher at the CNRS affiliated with CREST and Professor of
+Statistics and Econometrics at ENSAE and École Polytechnique.
+</p>
+
+<p>
+I hold a PhD and HDR from the Toulouse School of Economics.
+</p>
+
+<ul>
+<li>Associate Editor of the Journal of Econometrics</li>
+<li>Fellow of Hi! Paris</li>
+<li>Fellow of the Institut Louis Bachelier</li>
+<li>Member of the Economic Data Science Society</li>
+</ul>
+</section>
+
+<section id="research">
+<h2>Research Interests</h2>
+<ul>
+<li>Econometrics</li>
+<li>Machine Learning</li>
+<li>Artificial Intelligence</li>
+<li>High-Dimensional Econometrics</li>
+<li>Bayesian Inference</li>
+<li>Alternative Data (e.g., Google search)</li>
+<li>Semi- and Nonparametric Econometrics</li>
+<li>Nowcasting</li>
+<li>Mixed-Frequency Models</li>
+</ul>
+</section>
+
+<section id="cv">
+<h2>Curriculum Vitae</h2>
+
+<p>You can download my CV or view my academic profile:</p>
+
+<ul>
+<li><a href="#">Download CV (PDF)</a></li>
+<li><a href="#">Google Scholar Profile</a></li>
+</ul>
+
+</section>
+
+<section id="contact">
+<h2>Contact</h2>
+
+<p>
+CREST UMR 9194<br>
+Campus École Polytechnique<br>
+5 Avenue Henry Le Chatelier<br>
+91120 Palaiseau – France
+</p>
+
+<p>
+Email: <a href="mailto:anna.simoni@ensae.fr">anna.simoni@ensae.fr</a>
+</p>
+
+</section>
+
+<footer>
+<p>© 2026 Anna Simoni</p>
+</footer>
+
 </body>
 </html>
