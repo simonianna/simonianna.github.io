@@ -50,6 +50,12 @@ nav{
     top:0;
 }
 
+    .nav-container {
+    display: flex;
+    justify-content: center;
+    gap: 40px;   /* ⬅️ clean spacing */
+}
+    
 a {
     color: #1f3c88;
     text-decoration: none;
@@ -62,6 +68,11 @@ a:hover {
 
 nav a {
     color: white;
+    margin: 0 25px;   /* ⬅️ increase spacing */
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 nav a:hover {
@@ -136,10 +147,12 @@ footer{
 </header>
 
 <nav>
-<a href="index.html">Home</a>
-<a href="research.html">Research</a>
-<a href="CV_Anna_Simoni_Janvier_2026.pdf" target="_blank">CV</a>
-<a href="#contact">Contact</a>
+  <div class="nav-container">
+    <a href="index.html">Home</a>
+    <a href="research.html">Research</a>
+    <a href="CV_Anna_Simoni_Janvier_2026.pdf" target="_blank">CV</a>
+    <a href="#contact">Contact</a>
+  </div>
 </nav>
 
 <section id="about">
@@ -182,8 +195,8 @@ I hold a PhD and HDR from the Toulouse School of Economics.
 <p>You can download my CV or view my academic profile:</p>
 
 <ul>
-<li><a href="#">Download CV (PDF)</a></li>
-<li><a href="#">Google Scholar Profile</a></li>
+<li><a href="CV_Anna_Simoni_Janvier_2026.pdf">Download CV (PDF)</a></li>
+<li><a href="https://scholar.google.com/citations?user=aFM3WD0AAAAJ&hl=en">Google Scholar Profile</a></li>
 </ul>
 
 </section>
@@ -199,7 +212,7 @@ Campus École Polytechnique<br>
 </p>
 
 <p>
-Email: <a href="mailto:anna.simoni@ensae.fr">anna.simoni@ensae.fr</a>
+Email: <a href="mailto:anna.simoni@ensae.fr">firstname.lastname "at" polytechnique.edu</a>
 </p>
 
 </section>
